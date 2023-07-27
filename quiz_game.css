@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+}
+
+#content img{
+    float: top;
+    height: 100%;
+    width: 100%;
+}
+
+#player1_name_input{
+    width: 600px;
+    margin-bottom: 75px;
+}
+
+#player2_name_input{
+    width: 600px;
+    margin-bottom: 50px;
+}
+#btnLog-in{
+    background-image: linear-gradient(to right,palevioletred, plum, purple );
+    font-family: sans-serif;
+    border: 5px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+#Username_Table{
+   background-color: black;
+}
+
+#username_border{
+    background-color: white;
+    width: 700px;
+    margin-bottom: 200px;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    border-radius: 20px;
+}
+
+#textH1{
+    font-family: monospace;
+}
+
+hr{
+    height: 5px;
+    color: black;
+}

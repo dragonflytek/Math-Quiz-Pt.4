@@ -1,0 +1,39 @@
+body{
+    background-color: aliceblue;
+}
+
+#buttonSubmit{
+    background-image: linear-gradient(to right,rgb(206, 255, 166), rgb(132, 207, 88), rgb(208, 255, 133) );
+}
+
+#player1_name{
+    height: 20px;
+    color: black;
+    font-family: cursive;
+}
+
+#player1_score{
+    height: 20px;
+    color: black;
+}
+
+#player2_name{
+    height: 20px;
+    color: black;
+    font-family: cursive;
+}
+
+#player2_score{
+    height: 20px;
+    color: black;
+}
+
+#output
+{
+background: aliceblue;
+border-radius: 10px;
+border-top: 10px solid #adf5ff;
+padding: 10px;
+float: none;
+text-align: left;
+}

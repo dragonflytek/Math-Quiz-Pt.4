@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>  MathGames.com </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="quiz_game.css">
+        <script src="quiz_game_login.js"></script>
+    </head>
+<body>
+    <table style="width: 100%" id="table">
+        <tr>
+            <td id="Username_Table">
+                <center>
+                    <div id="username_border">
+                        <h2> Welcome To</h2>
+                        <h1 id="textH1">MathGame.com</h1>
+                        <br>
+                        <!--Player 1-->
+                        <div class="login_div1">
+                            <h3>Player 1 enter name for the game</h3>
+                            <label>Player Name: </label>
+                            <input type="text" id="player1_name_input" class="form-control" placeholder="Player 1 Username"
+                             <br>
+                         </div>
+                         <hr>
+                         <br>
+                         <!--Player 2-->
+                        <div class="login_div2">
+                            <h3>Player 2 enter name for the game</h3>
+                            <label>Player Name: </label>
+                            <input type="text" id="player2_name_input" class="form-control" placeholder="Player 2 Username"
+                            <br>
+                        </div>
+                        <br>
+                        <button id="btnLog-in" style="width:30%" class="btn btn-primary" onclick="addUser()">Log In</button>
+                    </div>
+                </center>
+            </td>
+            <td>
+                <div id="content">
+                    <img src="meltingBackground.jpeg" alt="">
+                </div>
+            </td>
+        </tr>
+        <tr>
+        </tr>
+    </table>
+ </body>
+</html>
