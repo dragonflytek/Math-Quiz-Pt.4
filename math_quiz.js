@@ -44,16 +44,6 @@ function check(){
             document.getElementById("player2_score").innerHTML = player2_Score;
         }
     }
-    if (get_answer !== actual_answer){
-        if (answer_turn == "player1"){
-            player1_Score = player1_Score - 1;
-            document.getElementById("player1_score").innerHTML = player1_Score;
-        }
-        else{
-            player2_Score = player2_Score - 1;
-            document.getElementById("player2_score").innerHTML = player2_Score;
-        }
-    }
     if (question_turn == "player1"){
         question_turn = "player2"
         document.getElementById("player_question").innerHTML = " Question Turn - " + player2_Name;
